@@ -10,13 +10,13 @@ body {
   margin-left: auto;
   margin-right: auto;
   font-family: "Inter", sans-serif;
-  background: #003300;
+  background: #003400;
   color: aliceblue;
   padding: 0.875rem;
 }
 
 .container {
-  background: maroon;
+  background: #770000;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
 }
@@ -31,16 +31,14 @@ h1 {
   padding-bottom: 1rem;
 }
 
-h2:after {
-  content: "";
-  display: block;
-  position: relative;
-  margin-top: 1rem;
-  width: 12em;
-  border-bottom: 1px solid #333;
+h2 {
+  border-bottom: 1px solid indigo;
+  padding-bottom: 1rem;
 }
-h3 {
-  color: yellow;
+
+h3,
+h4 {
+  color: sandybrown;
 }
 
 ul {
@@ -51,16 +49,19 @@ ul li {
 }
 
 a {
-  color: gold;
+  color: goldenrod;
   transition: all 0.4s ease-in-out;
 }
-a:hover {
-  color: darkslategray;
+a:hover,
+a:active,
+a:focus {
+  color: gold;
+  text-decoration: none;
 }
 
 nav {
   text-align: center;
-  background: #898989;
+  background: #000055;
   color: black;
   border-radius: 0.5rem;
   padding: 0.5rem 0;
@@ -71,7 +72,7 @@ nav h4 {
   padding: 0.25rem 0;
 }
 nav h4 {
-  text-shadow: 0 0 2px white;
+  text-shadow: 0 0 1px black;
 }
 
 main {
@@ -80,7 +81,7 @@ main {
 }
 
 footer {
-  background: #000033;
+  background: #000055;
   font-size: 0.625rem;
   padding: 0.75rem;
   border-radius: 0.25rem;
