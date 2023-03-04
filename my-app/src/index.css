@@ -27,11 +27,13 @@ h2 {
 }
 
 h1 {
+  font-size: 1.5rem;
   text-align: center;
   padding-bottom: 1rem;
 }
 
 h2 {
+  font-size: 1.125rem;
   border-bottom: 1px solid indigo;
   padding-bottom: 1rem;
 }
@@ -46,17 +48,20 @@ ul {
 }
 ul li {
   line-height: 1.8rem;
+  font-size: 0.875rem;
 }
 
 a {
   color: goldenrod;
+  text-decoration: none;
+  border-bottom: 1px dotted gold;
   transition: all 0.4s ease-in-out;
 }
 a:hover,
 a:active,
 a:focus {
   color: gold;
-  text-decoration: none;
+  border-bottom: 1px dotted transparent;
 }
 
 nav {
@@ -103,6 +108,15 @@ footer {
   }
   nav h3 {
     padding-left: 0.25rem;
+  }
+  h1 {
+    font-size: 1.75rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+  }
+  ul li {
+    font-size: 1rem;
   }
   footer {
     font-size: 0.75rem;
