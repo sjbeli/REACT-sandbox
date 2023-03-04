@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Inter", sans-serif;
+  background: #003300;
+  color: aliceblue;
+  padding: 0.875rem;
+}
+
+.container {
+  background: maroon;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+}
+
+h1,
+h2 {
+  text-shadow: 1px 1px 3px black;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+h2:after {
+  content: "";
+  display: block;
+  position: relative;
+  margin-top: 1rem;
+  width: 12em;
+  border-bottom: 1px solid #333;
+}
+h3 {
+  color: yellow;
+}
+
+ul {
+  margin: 1rem;
+}
+ul li {
+  line-height: 1.8rem;
+}
+
+a {
+  color: gold;
+  transition: all 0.4s ease-in-out;
+}
+a:hover {
+  color: darkslategray;
+}
+
+nav {
+  text-align: center;
+  background: #898989;
+  color: black;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0;
+}
+
+nav h3,
+nav h4 {
+  padding: 0.25rem 0;
+}
+nav h4 {
+  text-shadow: 0 0 2px white;
+}
+
+main {
+  margin: 1.25rem 0;
+  text-shadow: 0 0 1px black;
+}
+
+footer {
+  background: #000033;
+  font-size: 0.625rem;
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  text-align: center;
+  text-shadow: 0 0 1px black;
+  text-transform: uppercase;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 370px) {
+  nav,
+  nav > div {
+    display: flex;
+    align-items: center;
+  }
+  nav {
+    justify-content: space-between;
+    padding: 0.5rem;
+  }
+  nav h3 {
+    padding-left: 0.25rem;
+  }
+  footer {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 600px) {
+  nav {
+    justify-content: space-around;
+  }
+}
