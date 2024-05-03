@@ -25,19 +25,16 @@ h1,
 h2 {
   text-shadow: 1px 1px 3px black;
 }
-
 h1 {
   font-size: 1.5rem;
   text-align: center;
   padding-bottom: 1rem;
 }
-
 h2 {
   font-size: 1.125rem;
   border-bottom: 1px solid indigo;
   padding-bottom: 1rem;
 }
-
 h3,
 h4 {
   color: sandybrown;
@@ -71,7 +68,6 @@ nav {
   border-radius: 0.5rem;
   padding: 0.5rem 0;
 }
-
 nav h3,
 nav h4 {
   padding: 0.25rem 0;
@@ -117,9 +113,6 @@ footer {
   }
   ul li {
     font-size: 1rem;
-  }
-  footer {
-    font-size: 0.75rem;
   }
 }
 
